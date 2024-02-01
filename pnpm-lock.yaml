@@ -298,8 +298,8 @@ importers:
         specifier: 0.1.1-alpha.20
         version: 0.1.1-alpha.20(react@18.2.0)
       '@gemeente-denhaag/descriptionlist':
-        specifier: 0.1.1-alpha.262
-        version: 0.1.1-alpha.262
+        specifier: 0.1.1-alpha.270
+        version: 0.1.1-alpha.270
       '@gemeente-denhaag/icons':
         specifier: 0.2.3-alpha.362
         version: 0.2.3-alpha.362(react@18.2.0)
@@ -1651,8 +1651,8 @@ packages:
       - react
     dev: false
 
-  /@gemeente-denhaag/descriptionlist@0.1.1-alpha.262:
-    resolution: {integrity: sha512-vLKQsyk23i+sdoDhvJq9vYyRSlT4urUkEsyT011j68kM3jGFA43OFaDx0eZg3V9xDuKLKYDnzcgz9qvBrkof3w==}
+  /@gemeente-denhaag/descriptionlist@0.1.1-alpha.270:
+    resolution: {integrity: sha512-YGuxlt11sQKoaoZmXEuzfSU5wEy66cTFbOVpqP5/QZNXoEi/vnOpeThPTsadZ6+ebyvsurPlJ3aZ1yq6KPvOcg==}
     dev: false
 
   /@gemeente-denhaag/design-tokens-common@0.2.3-alpha.362:
