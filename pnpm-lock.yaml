@@ -313,8 +313,8 @@ importers:
         specifier: 0.1.0-alpha.191
         version: 0.1.0-alpha.191(react@18.2.0)
       '@gemeente-denhaag/responsive-content':
-        specifier: 0.1.1-alpha.222
-        version: 0.1.1-alpha.222
+        specifier: 0.1.1-alpha.230
+        version: 0.1.1-alpha.230
       '@gemeente-denhaag/sidenav':
         specifier: 0.1.0-alpha.180
         version: 0.1.0-alpha.180(react@18.2.0)
@@ -1911,6 +1911,10 @@ packages:
 
   /@gemeente-denhaag/responsive-content@0.1.1-alpha.222:
     resolution: {integrity: sha512-ctKU7TvUHCizIWZonoButwHw6Jsoc/6NQ0qvAc9R/QFHS8aCBXbbBkThHLtZtHkgfuuwkqwiM4AsKkZo7gfSzQ==}
+    dev: false
+
+  /@gemeente-denhaag/responsive-content@0.1.1-alpha.230:
+    resolution: {integrity: sha512-GBm/KQYXxI3sXz8ybG6XELpQc57gYt+EPndunyqYs/Y9+WutO+tm8933Nq9/UM2W2RzLXg5XfQFSuQF7kP+54Q==}
     dev: false
 
   /@gemeente-denhaag/sheet@0.1.0-alpha.158(react@18.2.0):
