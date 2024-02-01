@@ -283,8 +283,8 @@ importers:
         specifier: ^5.2.3
         version: 5.3.0(formiojs@4.18.1)(react-dom@18.2.0)(react@18.2.0)
       '@gemeente-denhaag/action':
-        specifier: 0.1.1-alpha.28
-        version: 0.1.1-alpha.28(react@18.2.0)
+        specifier: 0.1.1-alpha.36
+        version: 0.1.1-alpha.36(react@18.2.0)
       '@gemeente-denhaag/alert':
         specifier: 0.1.1-alpha.332
         version: 0.1.1-alpha.332(react@18.2.0)
@@ -1499,6 +1499,18 @@ packages:
       - react
     dev: false
 
+  /@gemeente-denhaag/action@0.1.1-alpha.36(react@18.2.0):
+    resolution: {integrity: sha512-X5KSDQfagjKfokD3QKV7BZL7kuZJCAeeyOjCoUmPlw/RG6cPNiolQXWc3FtZ8FrbWbJp6V1YhUR/zFAkZ/X7AA==}
+    dependencies:
+      '@gemeente-denhaag/button': 0.2.3-alpha.370(react@18.2.0)
+      '@gemeente-denhaag/icons': 0.2.3-alpha.370(react@18.2.0)
+      '@gemeente-denhaag/link': 0.2.3-alpha.370(react@18.2.0)
+      '@gemeente-denhaag/utils': 0.2.3-alpha.369(react@18.2.0)
+      date-fns: 2.30.0
+    transitivePeerDependencies:
+      - react
+    dev: false
+
   /@gemeente-denhaag/alert@0.1.1-alpha.332(react@18.2.0):
     resolution: {integrity: sha512-V9otpTG6fikSndiVou1o28TArYWG3G7fnj0M2uyJKHJLanOsicKpxBdweOrEJLwPmTIjXNdSCcRAXuwSwGbeGQ==}
     peerDependencies:
@@ -1549,6 +1561,15 @@ packages:
       react: ^18.0.0
     dependencies:
       '@gemeente-denhaag/icons': 0.2.3-alpha.362(react@18.2.0)
+      react: 18.2.0
+    dev: false
+
+  /@gemeente-denhaag/button@0.2.3-alpha.370(react@18.2.0):
+    resolution: {integrity: sha512-Kd6YP6ivfP0R943XA7PfE5QbgT6FOfSdYjcb5zvKYEA8fFrGACyWJKMneYSe0Ks8xjfhpkUzqZkrIu9T+0flmg==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      '@gemeente-denhaag/icons': 0.2.3-alpha.370(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1800,6 +1821,14 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@gemeente-denhaag/icons@0.2.3-alpha.370(react@18.2.0):
+    resolution: {integrity: sha512-/Zvx73Pjlj1MYIO33hmNeQvPla39n0jQyCqDPmpA686rsdme8ICdrRHCbg4SQIJ36w/XSLu74bXwRrehJw2ylQ==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /@gemeente-denhaag/icons@0.2.3-alpha.70(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-L64C2CRdhe/vPs9rYmObFBwRfWHhH72TX2Lst4McaCwazLWF7I2ao8VDIecLf2SPUgv6kTwn7MvLS73/Pa4BxQ==}
     peerDependencies:
@@ -1839,6 +1868,15 @@ packages:
       react: ^18.0.0
     dependencies:
       '@gemeente-denhaag/icons': 0.2.3-alpha.362(react@18.2.0)
+      react: 18.2.0
+    dev: false
+
+  /@gemeente-denhaag/link@0.2.3-alpha.370(react@18.2.0):
+    resolution: {integrity: sha512-VtGFy0s+6eKsdKx/gLiw7Pf5QAD92Ad8GlrOGpC4n/9w9WdpMwvC8MQ+mwuDWsq8aq2Y1RcPLwOPAzAV6qZFfg==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      '@gemeente-denhaag/icons': 0.2.3-alpha.370(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1984,6 +2022,15 @@ packages:
 
   /@gemeente-denhaag/utils@0.2.3-alpha.361(react@18.2.0):
     resolution: {integrity: sha512-QPUIo/AzpE7XFE8OapHR1EEF1YGw/8Sj8R0k/dLHVl/1m6cFklaQPdKu9s57+KW0YefRaV1dGQF28vWkrtcQeg==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      date-fns: 2.30.0
+      react: 18.2.0
+    dev: false
+
+  /@gemeente-denhaag/utils@0.2.3-alpha.369(react@18.2.0):
+    resolution: {integrity: sha512-nYcpB7LS6hpSzW+g6QDkhY6nUDaYdw2wSdjRrUCWydGHCqn2B/3nMctYgSO9mIkAVnvxqTRc3xa4hDTxeyqT+A==}
     peerDependencies:
       react: ^18.0.0
     dependencies:
